@@ -1,12 +1,17 @@
 require 'pry'
 
 def consolidate_cart(cart)
-  i=0
+  i=1
+  hash= {}
   cart.each do |item|
     item.each do |attributes|
-attributes.each do |k,v|
-binding.pry
+      attributes.each do |k|
+    price_data=attributes[1]
+hash[k][price_data] = ":count => #{i}"
+  binding.pry
+
         i+=1
+
       end
     end
   end
