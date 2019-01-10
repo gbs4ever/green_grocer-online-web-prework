@@ -28,7 +28,7 @@ cart.each do |item|
 
   binding.pry
 
-end
+
 end
 end
 end
