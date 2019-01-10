@@ -25,9 +25,9 @@ coupons.each do|coupon|
   coupon.each do |k,v|
 cart.each do |item|
   item.each do |a,b,c|
-if v == item
+
   binding.pry
-end
+
 end
 end
 end
