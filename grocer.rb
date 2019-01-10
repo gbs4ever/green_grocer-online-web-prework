@@ -23,11 +23,12 @@ def apply_coupons(cart, coupons)
   # some hints  we might need sting manuplation for the new
 coupons.each do|coupon|
   coupon.each do |k,v|
-cart.each do |item,price|
+cart.each do |item|
+  item.each do |a,b,c|
 if v == item
   binding.pry
-
-
+cart[item]=
+end
 end
 end
 end
