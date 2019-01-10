@@ -25,10 +25,10 @@ coupons.each do|coupon|
   coupon.each do |k,v|
 cart.each do |item,price|
 if v == item
-  cart
+  binding.pry
 
 
-
+end
 end
 end
 end
